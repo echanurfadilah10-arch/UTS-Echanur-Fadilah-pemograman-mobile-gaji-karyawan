@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GAJI KARYAWAN"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etNikEchanur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Induk Karyawan"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etNamaEchanur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Karyawan" />
+
+        <EditText
+            android:id="@+id/etGajiPokokEchanur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gaji Pokok"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etTunjJabatanEchanur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tunjangan Jabatan"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etHariKerjaEchanur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah Hari Kerja"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnHitungEchanur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HITUNG"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etTunjMakanEchanur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tunjangan Makan"
+            android:focusable="false" />
+
+        <EditText
+            android:id="@+id/etTunjTransportEchanur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tunjangan Transportasi"
+            android:focusable="false" />
+
+        <EditText
+            android:id="@+id/etGajiKotorEchanur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gaji Kotor"
+            android:focusable="false" />
+
+        <EditText
+            android:id="@+id/etGajiBersihEchanur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gaji Bersih"
+            android:focusable="false" />
+
+    </LinearLayout>
+</ScrollView>

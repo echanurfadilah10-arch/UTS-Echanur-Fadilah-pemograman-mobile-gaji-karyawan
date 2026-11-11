@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PETUNJUK PENGGUNAAN"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Jalankan Aplikasi\n\n• Pilih Icon Gaji Pegawai untuk menjalankan simulasi\n\n• Pilih Petunjuk Penggunaan untuk cara penggunaan\n\n• Pilih Tentang Aplikasi untuk informasi tentang aplikasi\n\n• Pilih Exit untuk keluar aplikasi"
+        android:textSize="14sp"
+        android:lineSpacingExtra="4dp"/>
+
+    <Button
+        android:id="@+id/btnKembaliPetunjukEchanur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
